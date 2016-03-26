@@ -4,27 +4,27 @@ return array(
 
 	'posts' => '文章',
 
-	'create_post' => '发表文章',
-	'noposts_desc' => '您没有文章!',
+	'create_post' => '创建一篇新文章',
+	'noposts_desc' => '还没有任何文章',
 
 	// form fields
-	'title' => '标题',
+	'title' => '文章标题',
 	'title_explain' => '',
-	'title_missing' => '请输入标题',
+	'title_missing' => '请输入文章的标题',
 
-	'content' => '文章正文',
-	'content_explain' => '来写吧.',
+	'content' => '文章内容',
+	'content_explain' => '尽情写作吧！',
 
-	'slug' => '缩写',
-	'slug_explain' => '用缩写来识别您的文章,只能包含 ASCII 字符',
-	'slug_missing' => '请输入一个缩写网址,只能包含 ASCII 字符',
-	'slug_duplicate' => '缩写已存在',
-	'slug_invalid' => '缩写必须包含字母',
+	'slug' => '别名',
+	'slug_explain' => '指定一个别名URL缩写来识别你的文章，应该只使用ASCII字符',
+	'slug_missing' => '请输入别名URL, 只能使用ASCII字符',
+	'slug_duplicate' => '这个URL已经存在',
+	'slug_invalid' => '别名必须包含字母',
 
-	'description' => '描述',
+	'description' => '页面描述',
 	'description_explain' => '',
 
-	'status' => '统计',
+	'status' => '状态',
 	'status_explain' => '',
 
 	'category' => '分类',
@@ -33,15 +33,15 @@ return array(
 	'allow_comments' => '允许评论',
 	'allow_comments_explain' => '',
 
-	'custom_css' => '自定义 CSS',
+	'custom_css' => '自定义CSS样式表',
 	'custom_css_explain' => '',
 
-	'custom_js' => '自定义 JS',
+	'custom_js' => '自定义JS代码',
 	'custom_js_explain' => '',
 
 	// messages
-	'updated' => '您的文章已更新',
-	'created' => '您的文章已创建',
-	'deleted' => '您的文章已删除'
+	'updated' => '文章已经更新',
+	'created' => '文章已经创建',
+	'deleted' => '文章已经删除'
 
 );

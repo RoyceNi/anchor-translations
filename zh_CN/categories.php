@@ -3,26 +3,26 @@
 return array(
 
 	'category' => '分类',
-	'categories' => '分类',
+	'categories' => '分类目录',
 
-	'create_category' => '建立新分类',
-	'edit_category' => '编辑 &ldquo;%s&rdquo;',
+	'create_category' => '建立一个新分类',
+	'edit_category' => '修改 &ldquo;%s&rdquo;',
 
 	// form fields
-	'title' => 'Title',
-	'title_explain' => '分类名称.',
-	'title_missing' => '请输入分类名称',
+	'title' => '标题',
+	'title_explain' => '你的分类标题',
+	'title_missing' => '请输入标题',
 
-	'slug' => 'Slug',
-	'slug_explain' => '分类缩写.',
+	'slug' => '别名',
+	'slug_explain' => '你的分类别名（缩写），通常用作地址',
 
 	'description' => '描述',
-	'description_explain' => '关于您的分类的描述.',
+	'description_explain' => '你的分类是关于什么的呢？',
 
 	// messages
-	'created' => '您的新分类已添加.',
-	'updated' => '您的新分类已更新.',
-	'deleted' => '您的分类已删除.',
-	'delete_error' => '您必须有一个分区.',
+	'created' => '新分类已经添加',
+	'updated' => '所选分类已经更新',
+	'deleted' => '所选分类已经删除',
+	'delete_error' => '你至少得留下一个类别',
 
 );

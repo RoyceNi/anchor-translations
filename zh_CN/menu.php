@@ -2,6 +2,6 @@
 
 return array(
 
-	'menu' => '导航',
+	'menu' => '菜单',
 
 );
